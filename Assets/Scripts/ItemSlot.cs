@@ -1,5 +1,8 @@
-﻿namespace DapperDino.Items
+﻿using System;
+
+namespace DapperDino.Items
 {
+    [Serializable]
     public struct ItemSlot
     {
         public InventoryItem item;
