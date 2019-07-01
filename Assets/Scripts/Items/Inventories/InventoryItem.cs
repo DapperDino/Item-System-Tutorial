@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace DapperDino.Items
+namespace DapperDino.Items.Inventories
 {
     public abstract class InventoryItem : HotbarItem
     {

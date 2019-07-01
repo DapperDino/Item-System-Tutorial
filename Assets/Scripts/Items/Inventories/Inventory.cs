@@ -1,7 +1,7 @@
 ﻿using DapperDino.Events.CustomEvents;
 using UnityEngine;
 
-namespace DapperDino.Items
+namespace DapperDino.Items.Inventories
 {
     [CreateAssetMenu(fileName = "New Inventory", menuName = "Items/Inventory")]
     public class Inventory : ScriptableObject

@@ -123,6 +123,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemSlotUI: {fileID: 1608660794}
+  itemDestroyer: {fileID: 0}
 --- !u!1 &3464481039577986672
 GameObject:
   m_ObjectHideFlags: 0
@@ -137,7 +138,7 @@ GameObject:
   - component: {fileID: 1608660794}
   - component: {fileID: 1608660793}
   m_Layer: 0
-  m_Name: InventorySlot
+  m_Name: Slot_Inventory
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

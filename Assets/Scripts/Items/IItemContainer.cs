@@ -1,4 +1,6 @@
-﻿namespace DapperDino.Items
+﻿using DapperDino.Items.Inventories;
+
+namespace DapperDino.Items
 {
     public interface IItemContainer
     {

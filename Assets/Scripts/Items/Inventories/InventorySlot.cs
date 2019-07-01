@@ -2,7 +2,7 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-namespace DapperDino.Items
+namespace DapperDino.Items.Inventories
 {
     public class InventorySlot : ItemSlotUI, IDropHandler
     {

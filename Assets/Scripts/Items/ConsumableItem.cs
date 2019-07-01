@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using DapperDino.Items.Inventories;
+using System.Text;
 using UnityEngine;
 
 namespace DapperDino.Items
