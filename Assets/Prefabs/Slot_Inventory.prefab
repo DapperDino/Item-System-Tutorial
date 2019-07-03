@@ -123,6 +123,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemSlotUI: {fileID: 1608660794}
+  onMouseStartHoverItem: {fileID: 11400000, guid: 1741650416e3d5b41b25f41a1168cbc1,
+    type: 2}
+  onMouseEndHoverItem: {fileID: 11400000, guid: e8e08c3a8e3c9ef4987322fb04861c1a,
+    type: 2}
   itemDestroyer: {fileID: 0}
 --- !u!1 &3464481039577986672
 GameObject:
