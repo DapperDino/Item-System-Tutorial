@@ -1,4 +1,4 @@
-﻿using DapperDino.Items;
+﻿using DapperDino.Items.Hotbars;
 using System;
 using UnityEngine.Events;
 

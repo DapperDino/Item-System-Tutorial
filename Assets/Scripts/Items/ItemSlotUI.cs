@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using DapperDino.Items.Hotbars;
+using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 

@@ -1,4 +1,5 @@
 ﻿using DapperDino.Items;
+using DapperDino.Items.Hotbars;
 using System.Text;
 using TMPro;
 using UnityEngine;

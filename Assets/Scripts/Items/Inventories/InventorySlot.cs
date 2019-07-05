@@ -1,4 +1,5 @@
-﻿using TMPro;
+﻿using DapperDino.Items.Hotbars;
+using TMPro;
 using UnityEngine;
 using UnityEngine.EventSystems;
 

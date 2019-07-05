@@ -1,6 +1,6 @@
 ﻿using DapperDino.Events.CustomEvents;
 using DapperDino.Events.UnityEvents;
-using DapperDino.Items;
+using DapperDino.Items.Hotbars;
 
 namespace DapperDino.Events.Listeners
 {

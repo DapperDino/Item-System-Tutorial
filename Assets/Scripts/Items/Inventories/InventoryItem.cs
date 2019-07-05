@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using DapperDino.Items.Hotbars;
+using UnityEngine;
 
 namespace DapperDino.Items.Inventories
 {
