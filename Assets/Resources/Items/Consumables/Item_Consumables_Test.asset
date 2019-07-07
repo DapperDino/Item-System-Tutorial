@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Health Potion
   icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  rarity: {fileID: 11400000, guid: a1c30af3df3f89643bba121811563121, type: 2}
   sellPrice: 1
   maxStack: 5
   useText: Does something, maybe?

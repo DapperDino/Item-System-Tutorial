@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1423827527020216454}
   - component: {fileID: 1423827527020216449}
   m_Layer: 0
-  m_Name: InventoryCanvas
+  m_Name: Canvas_Inventory
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -111,7 +111,7 @@ GameObject:
   - component: {fileID: 1423827527040601923}
   - component: {fileID: 1423827527040601922}
   m_Layer: 0
-  m_Name: CancelButtonText
+  m_Name: Text_CancelButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -383,7 +383,7 @@ GameObject:
   - component: {fileID: 1423827527509006209}
   - component: {fileID: 1423827527509006208}
   m_Layer: 0
-  m_Name: AreYouSureText
+  m_Name: Text_AreYouSure
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -541,7 +541,7 @@ GameObject:
   - component: {fileID: 1423827527564022729}
   - component: {fileID: 1423827527564022728}
   m_Layer: 0
-  m_Name: CancelButton
+  m_Name: Button_Cancel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -750,7 +750,7 @@ GameObject:
   - component: {fileID: 1423827527800618790}
   - component: {fileID: 1423827527800618785}
   m_Layer: 0
-  m_Name: ConfirmButton
+  m_Name: Button_Confirm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -961,7 +961,7 @@ GameObject:
   - component: {fileID: 1423827528211580589}
   - component: {fileID: 1423827528211580588}
   m_Layer: 0
-  m_Name: Background
+  m_Name: Background_DestroyItem
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1067,7 +1067,7 @@ GameObject:
   - component: {fileID: 1423827528720418852}
   - component: {fileID: 1423827528720418855}
   m_Layer: 0
-  m_Name: ConfirmButtonText
+  m_Name: Text_ConfirmButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1224,7 +1224,7 @@ GameObject:
   - component: {fileID: 1423827528721624883}
   - component: {fileID: 1423827528721624882}
   m_Layer: 0
-  m_Name: InventoryPanel
+  m_Name: Background_Inventory
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1247,7 +1247,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -350, y: 400}
+  m_AnchoredPosition: {x: -350, y: 450}
   m_SizeDelta: {x: 500, y: 600}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1423827528721624883
@@ -1271,7 +1271,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.21698111, g: 0.21698111, b: 0.21698111, a: 1}
+  m_Color: {r: 0.30980393, g: 0.30980393, b: 0.30980393, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -1297,7 +1297,7 @@ PrefabInstance:
     - target: {fileID: 3464481039577986672, guid: 44e1b4762fc640145874c0171eb895fa,
         type: 3}
       propertyPath: m_Name
-      value: InventorySlot
+      value: Slot_Inventory
       objectReference: {fileID: 0}
     - target: {fileID: 3464481039577986687, guid: 44e1b4762fc640145874c0171eb895fa,
         type: 3}
@@ -1427,7 +1427,7 @@ PrefabInstance:
     - target: {fileID: 3464481039577986672, guid: 44e1b4762fc640145874c0171eb895fa,
         type: 3}
       propertyPath: m_Name
-      value: InventorySlot
+      value: Slot_Inventory
       objectReference: {fileID: 0}
     - target: {fileID: 3464481039577986687, guid: 44e1b4762fc640145874c0171eb895fa,
         type: 3}
@@ -1557,7 +1557,7 @@ PrefabInstance:
     - target: {fileID: 3464481039577986672, guid: 44e1b4762fc640145874c0171eb895fa,
         type: 3}
       propertyPath: m_Name
-      value: InventorySlot
+      value: Slot_Inventory
       objectReference: {fileID: 0}
     - target: {fileID: 3464481039577986687, guid: 44e1b4762fc640145874c0171eb895fa,
         type: 3}
@@ -1687,7 +1687,7 @@ PrefabInstance:
     - target: {fileID: 3464481039577986672, guid: 44e1b4762fc640145874c0171eb895fa,
         type: 3}
       propertyPath: m_Name
-      value: InventorySlot
+      value: Slot_Inventory
       objectReference: {fileID: 0}
     - target: {fileID: 3464481039577986687, guid: 44e1b4762fc640145874c0171eb895fa,
         type: 3}
@@ -1817,7 +1817,7 @@ PrefabInstance:
     - target: {fileID: 3464481039577986672, guid: 44e1b4762fc640145874c0171eb895fa,
         type: 3}
       propertyPath: m_Name
-      value: InventorySlot
+      value: Slot_Inventory
       objectReference: {fileID: 0}
     - target: {fileID: 3464481039577986687, guid: 44e1b4762fc640145874c0171eb895fa,
         type: 3}
@@ -1947,7 +1947,7 @@ PrefabInstance:
     - target: {fileID: 3464481039577986672, guid: 44e1b4762fc640145874c0171eb895fa,
         type: 3}
       propertyPath: m_Name
-      value: InventorySlot
+      value: Slot_Inventory
       objectReference: {fileID: 0}
     - target: {fileID: 3464481039577986687, guid: 44e1b4762fc640145874c0171eb895fa,
         type: 3}
@@ -2077,7 +2077,7 @@ PrefabInstance:
     - target: {fileID: 3464481039577986672, guid: 44e1b4762fc640145874c0171eb895fa,
         type: 3}
       propertyPath: m_Name
-      value: InventorySlot
+      value: Slot_Inventory
       objectReference: {fileID: 0}
     - target: {fileID: 3464481039577986687, guid: 44e1b4762fc640145874c0171eb895fa,
         type: 3}
@@ -2207,7 +2207,7 @@ PrefabInstance:
     - target: {fileID: 3464481039577986672, guid: 44e1b4762fc640145874c0171eb895fa,
         type: 3}
       propertyPath: m_Name
-      value: InventorySlot
+      value: Slot_Inventory
       objectReference: {fileID: 0}
     - target: {fileID: 3464481039577986687, guid: 44e1b4762fc640145874c0171eb895fa,
         type: 3}
@@ -2337,7 +2337,7 @@ PrefabInstance:
     - target: {fileID: 3464481039577986672, guid: 44e1b4762fc640145874c0171eb895fa,
         type: 3}
       propertyPath: m_Name
-      value: InventorySlot
+      value: Slot_Inventory
       objectReference: {fileID: 0}
     - target: {fileID: 3464481039577986687, guid: 44e1b4762fc640145874c0171eb895fa,
         type: 3}
@@ -2467,7 +2467,7 @@ PrefabInstance:
     - target: {fileID: 3464481039577986672, guid: 44e1b4762fc640145874c0171eb895fa,
         type: 3}
       propertyPath: m_Name
-      value: InventorySlot
+      value: Slot_Inventory
       objectReference: {fileID: 0}
     - target: {fileID: 3464481039577986687, guid: 44e1b4762fc640145874c0171eb895fa,
         type: 3}
@@ -2597,7 +2597,7 @@ PrefabInstance:
     - target: {fileID: 3464481039577986672, guid: 44e1b4762fc640145874c0171eb895fa,
         type: 3}
       propertyPath: m_Name
-      value: InventorySlot
+      value: Slot_Inventory
       objectReference: {fileID: 0}
     - target: {fileID: 3464481039577986687, guid: 44e1b4762fc640145874c0171eb895fa,
         type: 3}
@@ -2727,7 +2727,7 @@ PrefabInstance:
     - target: {fileID: 3464481039577986672, guid: 44e1b4762fc640145874c0171eb895fa,
         type: 3}
       propertyPath: m_Name
-      value: InventorySlot
+      value: Slot_Inventory
       objectReference: {fileID: 0}
     - target: {fileID: 3464481039577986687, guid: 44e1b4762fc640145874c0171eb895fa,
         type: 3}
@@ -2857,7 +2857,7 @@ PrefabInstance:
     - target: {fileID: 3464481039577986672, guid: 44e1b4762fc640145874c0171eb895fa,
         type: 3}
       propertyPath: m_Name
-      value: InventorySlot
+      value: Slot_Inventory
       objectReference: {fileID: 0}
     - target: {fileID: 3464481039577986687, guid: 44e1b4762fc640145874c0171eb895fa,
         type: 3}
@@ -2987,7 +2987,7 @@ PrefabInstance:
     - target: {fileID: 3464481039577986672, guid: 44e1b4762fc640145874c0171eb895fa,
         type: 3}
       propertyPath: m_Name
-      value: InventorySlot
+      value: Slot_Inventory
       objectReference: {fileID: 0}
     - target: {fileID: 3464481039577986687, guid: 44e1b4762fc640145874c0171eb895fa,
         type: 3}
@@ -3117,7 +3117,7 @@ PrefabInstance:
     - target: {fileID: 3464481039577986672, guid: 44e1b4762fc640145874c0171eb895fa,
         type: 3}
       propertyPath: m_Name
-      value: InventorySlot
+      value: Slot_Inventory
       objectReference: {fileID: 0}
     - target: {fileID: 3464481039577986687, guid: 44e1b4762fc640145874c0171eb895fa,
         type: 3}
@@ -3247,7 +3247,7 @@ PrefabInstance:
     - target: {fileID: 3464481039577986672, guid: 44e1b4762fc640145874c0171eb895fa,
         type: 3}
       propertyPath: m_Name
-      value: InventorySlot
+      value: Slot_Inventory
       objectReference: {fileID: 0}
     - target: {fileID: 3464481039577986687, guid: 44e1b4762fc640145874c0171eb895fa,
         type: 3}
@@ -3377,7 +3377,7 @@ PrefabInstance:
     - target: {fileID: 3464481039577986672, guid: 44e1b4762fc640145874c0171eb895fa,
         type: 3}
       propertyPath: m_Name
-      value: InventorySlot
+      value: Slot_Inventory
       objectReference: {fileID: 0}
     - target: {fileID: 3464481039577986687, guid: 44e1b4762fc640145874c0171eb895fa,
         type: 3}
@@ -3507,7 +3507,7 @@ PrefabInstance:
     - target: {fileID: 3464481039577986672, guid: 44e1b4762fc640145874c0171eb895fa,
         type: 3}
       propertyPath: m_Name
-      value: InventorySlot
+      value: Slot_Inventory
       objectReference: {fileID: 0}
     - target: {fileID: 3464481039577986687, guid: 44e1b4762fc640145874c0171eb895fa,
         type: 3}
@@ -3637,7 +3637,7 @@ PrefabInstance:
     - target: {fileID: 3464481039577986672, guid: 44e1b4762fc640145874c0171eb895fa,
         type: 3}
       propertyPath: m_Name
-      value: InventorySlot
+      value: Slot_Inventory
       objectReference: {fileID: 0}
     - target: {fileID: 3464481039577986687, guid: 44e1b4762fc640145874c0171eb895fa,
         type: 3}
@@ -3767,7 +3767,7 @@ PrefabInstance:
     - target: {fileID: 3464481039577986672, guid: 44e1b4762fc640145874c0171eb895fa,
         type: 3}
       propertyPath: m_Name
-      value: InventorySlot
+      value: Slot_Inventory
       objectReference: {fileID: 0}
     - target: {fileID: 3464481039577986687, guid: 44e1b4762fc640145874c0171eb895fa,
         type: 3}
