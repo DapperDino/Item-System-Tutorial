@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d1b41e7e9ccdd344eaae014e0deb8fd3, type: 3}
-  m_Name: Item_Consumables_Test
+  m_Name: Item_Consumable_HealthPotion
   m_EditorClassIdentifier: 
   name: Health Potion
   icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
-  rarity: {fileID: 11400000, guid: a1c30af3df3f89643bba121811563121, type: 2}
+  rarity: {fileID: 11400000, guid: bd9a8eda009dbfb40984111ff5866cd8, type: 2}
   sellPrice: 1
   maxStack: 5
   useText: Does something, maybe?
